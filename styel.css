@@ -118,7 +118,7 @@ main {
   padding-top: 50px;
 }
 
-pagination p {
+.pagination p {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -162,41 +162,42 @@ pagination p {
   flex-wrap: wrap;
 }
 
-.instagram .sidebar-contents {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .instagram-box {
   width: 110px;
   padding-top: 110px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .instagram-box:nth-child(odd) {
-  margin: 0 10px 10px 0;
+  margin-right: 10px;
 }
 
 .instagram-box:nth-child(1) {
   background-image: url(img/airport.jpg);
 }
+
 .instagram-box:nth-child(2) {
   background-image: url(img/japan.jpg);
 }
+
 .instagram-box:nth-child(3) {
   background-image: url(img/snow.jpg);
 }
+
 .instagram-box:nth-child(4) {
   background-image: url(img/japan2.jpg);
 }
+
 .instagram-box:nth-child(5) {
   background-image: url(img/lake.jpg);
 }
+
 .instagram-box:nth-child(6) {
   background-image: url(img/road.jpg);
 }
+
 
 footer {
   width: 100%;
